@@ -1,0 +1,98 @@
+// bower:scss
+// endbower
+
+$primary-color: rgba(46, 58, 46, 1);
+$secondary-color: rgba(228, 231, 228, 1);
+
+h1, h2, h3 {
+}
+
+.header-top {
+  width: 1200px;
+  height: 131px;
+  background-image: url('http://barechest.org/2016/images_2016/header_region/header2016_03.png');
+}
+
+.header .navbar {;
+  color: white;
+  height: 28px;
+  width: 1200px;
+  min-height: inherit;
+  margin:0px;
+  border-radius: 0;
+  background-color: black;
+  border-width: 0px;
+}
+.header .navbar-collapse,
+.header img {
+  float: left;
+}
+.header .navbar .navbar-nav > li > a {
+  padding: 3px;
+  padding-right: 10px;
+  color: white;
+}
+
+#main {
+  background-image: url('http://barechest.org/2016/images_2016/header_region/montage-header02_x2.jpg');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: contain;
+  width: 1200px;
+  padding: 15px;
+  padding-top: 60px;
+}
+.main-wrapper {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.month-pager .pagination {
+  margin: 0px;
+}
+
+.page-header {
+  background-color: black;
+  color: white;
+  border-width: 0px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.page-header small {
+  color: #EE3342;
+}
+
+.calendars-wrappers img {
+  position: relative;
+}
+.calendars-wrappers .caption h3,
+.calendars-wrapper .caption .caption-inner {
+  margin: 5px 20px;
+  padding: 0;
+  background-color: #000000;
+  color: #FFF;
+}
+.calendars-wrappers .caption,
+.calendars-wrapper .caption {
+   position: absolute;
+   top: 60px;
+   left: 0;
+   width: 100%;
+   opacity: .5;
+   text-align: center;
+}
+.calendars-wrapper .caption {
+  bottom: 20px;
+  top:auto;
+}
+
+.calendars-wrapper .caption h3,
+.calendars-wrapper .caption h4 {
+  margin: 0px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+}

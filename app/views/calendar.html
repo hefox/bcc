@@ -1,0 +1,35 @@
+<ol class="breadcrumb pull-left">
+  <li><a href="#/">Home</a></li>
+  <li>{{year}}</li>
+</ol>
+<span class="clearfix"></span>
+<div class="container-fluid calendars-wrapper">
+  <div class="row" ng-if="calendar.cover">
+    <div class="col-sm-6">
+      <a href="#/calendar/{{year}}/cover" class="thumbnail">
+        <img ng-src="{{calendar.cover}}" alt="Cover Image">
+      </a>
+    </div>
+    <div class="col-sm-6" ng-if="calendar.back">
+      <a href="#/calendar/{{year}}/back" class="thumbnail">
+        <img ng-src="{{calendar.back}}" alt="Back Image">
+      </a>
+    </div>
+  </div>
+  <div class="row">
+    <div ng-repeat="(key, month) in calendar.months">
+      <div class="col-sm-3">
+        <a href="#/calendar/{{year}}/{{key}}" class="thumbnail">
+          <img ng-src="{{month.getImage()}}" alt="{{month.getDisplayName()}}">
+          <div class="caption">
+            <div class="caption-inner">
+              <h3>{{month.getDisplayName()}}</h3>
+              <h4>Mr. {{month.getMonthName()}}</h4>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="clearfix" ng-if="($index + 1) % 4 == 0"></div>
+    </div>
+  </div>
+</div>

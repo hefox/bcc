@@ -1,0 +1,49 @@
+<ol class="breadcrumb pull-left">
+  <li><a href="#/">Home</a></li>
+  <li><a href="#/calendar/{{year}}">{{year}}</a></li>
+  <li>{{displayMonth}}</li>
+</ol>
+<nav aria-label="Page navigation" class="pull-right month-pager">
+  <ul class="pagination">
+    <li ng-class="{'disabled': prev === false}">
+      <a href="#/calendar/{{year}}/{{prev}}" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+    <li ng-if="calendar.cover"><a href="#/calendar/{{year}}/cover">Cover</a></li>
+    <li ng-if="calendar.back"><a href="#/calendar/{{year}}/back">Back</a></li>
+    <li><a href="#/calendar/{{year}}/0">Jan</a></li>
+    <li><a href="#/calendar/{{year}}/1">Feb</a></li>
+    <li><a href="#/calendar/{{year}}/2">Mar</a></li>
+    <li><a href="#/calendar/{{year}}/3">Apr</a></li>
+    <li><a href="#/calendar/{{year}}/4">May</a></li>
+    <li><a href="#/calendar/{{year}}/5">Jun</a></li>
+    <li><a href="#/calendar/{{year}}/6">Jul</a></li>
+    <li><a href="#/calendar/{{year}}/7">Aug</a></li>
+    <li><a href="#/calendar/{{year}}/8">Sep</a></li>
+    <li><a href="#/calendar/{{year}}/9">Oct</a></li>
+    <li><a href="#/calendar/{{year}}/10">Nov</a></li>
+    <li><a href="#/calendar/{{year}}/11">Dec</a></li>
+    <li ng-class="{'disabled': next === false}">
+      <a href="#/calendar/{{year}}/{{next}}" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+<span class="clearfix"></span>
+
+<h1 ng-if="isNormalMonth" class="page-header">{{name}} <small>Mr. {{displayMonth}}</small></h1>
+<h1 ng-if="!isNormalMonth" class="page-header">{{displayMonth}} <small>{{name}}</small></h1>
+<div class="container-fluid calendars-wrapper">
+  <div class="row">
+    <div class="col-sm-12">
+      <img class="center-block img-responsive" src="{{image}}">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12">
+
+    </div>
+  </div>
+</div>

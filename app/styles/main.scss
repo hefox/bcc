@@ -96,8 +96,8 @@ h1, h2, h3 {
 .month-image--with-desc {
   margin: 0 20px 20px;
 }
-.month-wrapper blockquote,
 .month-wrapper .list-group {
+  display: table;
 }
 
 /* Responsive: Portrait tablets and up */

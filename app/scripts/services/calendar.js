@@ -636,13 +636,68 @@ function CalendarService () {
       dob: '07/13/1965',
       dod: '11/07/1992',
       desc: 'chris-minor.html'
-    })
+    }),
+    new PersonObj({
+      name: 'Terry Cameron',
+      images: {1992: 'http://barechest.org/years/1992/1992_01_terry_cameron.jpg'},
+    }),
+    new PersonObj({
+      name: 'Dan Davis',
+      images: {1992: 'http://barechest.org/years/1992/1992_03_dan_davis.jpg'},
+    }),
+    new PersonObj({
+      name: 'Michael Holloway',
+      images: {1992: 'http://barechest.org/years/1992/1992_04_michael_holloway.jpg'},
+    }),
+    new PersonObj({
+      name: 'Michael Fiumara',
+      images: {1992: 'http://barechest.org/thumbs_gallery_years/th_1992_05_michael_fiumara.jpg'},
+      links: [
+        {
+          url:'https://books.google.com/books?id=c5MCAAAAMBAJ&lpg=PP1&dq=New%20York%20Magazine%20Jun%2020%2C%201994&pg=PP1#v=onepage&q&f=false',
+          text: 'New York Magazine Jun 20, 1994 - Well Oiled Machines -'
+        },
+      ],
+      desc: 'michael-fiumara.html'
+    }),
+    new PersonObj({
+      name: 'Richard Gorelnick',
+      images: {1992: 'http://barechest.org/years/1992/1992_06_richard_gorelnick.jpg'},
+    }),
+    new PersonObj({
+      name: 'Michael Howe',
+      images: {1992: 'http://barechest.org/years/1992/1992_07_michael_howe.jpg'},
+      // possible obituary http://barechest.org/years/1992/1992_07_michael_howe.html
+    }),
+    new PersonObj({
+      name: 'Pete Sentowski',
+      images: {1992: 'http://barechest.org/years/1992/1992_08_pete_sentkowski.jpg'},
+    }),
+    new PersonObj({
+      name: 'Kevin Ware',
+      images: {1992: 'http://barechest.org/years/1992/1992_09_kevin_ware.jpg'},
+    }),
+    new PersonObj({
+      name: 'Kevin Sims',
+      images: {1992: 'http://barechest.org/years/1992/1992_10_kevin_sims.jpg'},
+    }),
+    new PersonObj({
+      name: 'Andy Anderson',
+      images: {1992: 'http://barechest.org/years/1992/1992_11_andy_anderson.jpg'},
+    }),
+    new PersonObj({
+      name: 'Art Tomaszewski',
+      images: {1992: 'http://barechest.org/years/1992/1992_12_art_tomaszewski.jpg'},
+      desc: 'art-tomaszewski.html'
+    }),
   ];
   for (var key in p) {
     people[p[key].name] = p[key];
   }
   people['Mitch Johnson'].addImage(1991, 'http://barechest.org/years/1991/1991_11_mitch_johnson.jpg');
   people['Brian Berger'].addImage(1988, 'http://barechest.org/years/1988/1988_04_brian_berger.jpg');
+  people['Grant Dupont'].addImage(1992, 'http://barechest.org/years/1992/1992_02_grant_dupont.jpg');
+
 
 
   this.calendar = {};
@@ -780,6 +835,26 @@ function CalendarService () {
       people['Chuck Russell'],
       people['Mitch Johnson'],
       people['Andrew Pear'],
+    ],
+  };
+  this.calendar[1992] = {
+    cover: 'http://barechest.org/years/1992/1992_fc_andy_anderson.jpg',
+    coverMan: people['Andy Anderson'],
+    backMan: people['Art Tomaszewski'],
+    back: 'http://barechest.org/years/1992/1992_bc_art_tomaszewski.jpg',
+    monthsUnprocessed: [
+      people['Terry Cameron'],
+      people['Grant Dupont'],
+      people['Dan Davis'],
+      people['Michael Holloway'],
+      people['Michael Fiumara'],
+      people['Richard Gorelnick'],
+      people['Michael Howe'],
+      people['Pete Sentowski'],
+      people['Kevin Ware'],
+      people['Kevin Sims'],
+      people['Andy Anderson'],
+      people['Art Tomaszewski'],
     ],
   };
   for (var year in this.calendar) {

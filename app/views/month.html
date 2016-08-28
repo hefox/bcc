@@ -4,7 +4,7 @@
   <li>{{displayMonth}}</li>
 </ol>
 <nav aria-label="Page navigation" class="pull-right month-pager">
-  <ul class="pagination">
+  <ul class="pagination pagination-sm">
     <li ng-class="{'disabled': prev === false}">
       <a href="#/calendar/{{year}}/{{prev}}" aria-label="Previous">
         <span aria-hidden="true">&laquo;</span>
@@ -36,14 +36,17 @@
 <h1 ng-if="isNormalMonth" class="page-header">{{name}} <small>Mr. {{displayMonth}}</small></h1>
 <h1 ng-if="!isNormalMonth" class="page-header">{{displayMonth}} <small>{{name}}</small></h1>
 <div class="container-fluid calendars-wrapper">
-  <div class="row">
+  <div class="row month-wrapper" >
     <div class="col-sm-12">
-      <img class="center-block img-responsive" src="{{image}}">
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-sm-12">
-
+      <img class="img-responsive thumbnail month-image" src="{{image}}" ng-class="{'center-block': descCount == 0, 'pull-right month-image--with-desc': descCount > 0}">
+      <div ng-repeat="person in people" ng-if="people">
+        <h3 ng-if="descCount > 1">{{person.name}}</h3>
+        <p ng-if="person.dob" class="lead">{{person.dob | date:'fullDate'}} <span ng-if="person.dod"> - {{person.dod | date:'fullDate'}}</span></p>
+        <div ng-include="'views/people/' + person.desc" ng-if="person.desc"></div>
+        <div class="list-group" ng-if="person.links">
+          <span ng-repeat="link in person.links"><a href="{{link.url}}" class="list-group-item" >{{link.text}}</a></span>
+        </div>
+      </div>
     </div>
   </div>
 </div>

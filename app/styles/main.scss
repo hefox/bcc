@@ -93,6 +93,13 @@ h1, h2, h3 {
   margin: 0px;
 }
 
+.month-image--with-desc {
+  margin: 0 20px 20px;
+}
+.month-wrapper blockquote,
+.month-wrapper .list-group {
+}
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
 }

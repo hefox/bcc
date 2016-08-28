@@ -9,6 +9,10 @@
  */
 angular.module('bccApp')
   .controller('CalendarsCtrl', function (calendarService, $scope) {
-    $scope.calendars = calendarService.getCalendar();
+    var cal = calendarService.getCalendar();
+    $scope.calendars = [];
+    for (var key in cal) {
+      $scope.calendars.unshift(cal[key]);
+    }
     $scope.getCalendarCover = calendarService.getCalendarCover;
   });

@@ -106,9 +106,26 @@ function CalendarService () {
     new PersonObj({
       name: 'Jim Cvitanich',
       images: {1985: 'http://barechest.org/years/1985/1985_04_jim_cvitanich.jpg'},
+      links: [
+        {
+          url:'http://obit.glbthistory.org/olo/imagedb/1991/03/07/19910307_Cvitanich_James_Michael_Jim/m19910307_0.jpg',
+          text: 'Obituary'
+        },
+        {
+          url: 'http://ebar.com/bartab/article.php?sec=barchive&article=42',
+          text: 'Behind Men Behind Bars'
+        },
+        {
+          url: 'http://aidsquilttouch.org/panels/03847-3/91211',
+          text: 'AIDS quilt panel'
+        }
+      ],
+      dob: '08/28/1951',
+      dod: '02/27/1991',
+      desc: 'jim-cvitanich.html'
     }),
     new PersonObj({
-      name: '(Unknwon)',
+      name: '(Unknown)',
       images: {1985: 'http://barechest.org/years/1985/1985_05_unknown.jpg'},
     }),
     new PersonObj({
@@ -126,6 +143,15 @@ function CalendarService () {
     new PersonObj({
       name: 'Jimmy Smith',
       images: {1985: 'http://barechest.org/years/1985/1985_09_jimmy_smith.jpg'},
+      links: [
+        {
+          url:'http://obit.glbthistory.org/olo/imagedb/1994/05/19/19940519_Smith_James_Wilbert_Jimmy/m19940519_0.jpg',
+          text: 'Obituary'
+        },
+      ],
+      dob: '12/20/1944',
+      dod: '05/08/1994',
+      desc: 'jimmy-smith.html'
     }),
     new PersonObj({
       name: 'Michael Russo',
@@ -160,6 +186,23 @@ function CalendarService () {
       display: 'Pete Pettine aka "BUTCH"',
       nickname: 'Butch',
       images: {1986: 'http://barechest.org/years/1986/1986_05_pete_pettine-butch.jpg'},
+      links: [
+        {
+          url:'http://obit.glbthistory.org/olo/imagedb/1991/06/06/19910606_Pettine_Vito_Pete/m19910606_0.jpg',
+          text: 'Obituary'
+        },
+        {
+          url: 'http://aidsquilttouch.org/panels/02177-7/49596',
+          text: 'AIDS Quilt panel (group)',
+        },
+        {
+          url: 'http://aidsquilttouch.org/panels/01820-6/39211',
+          text: 'AIDS Quilt panel',
+        }
+      ],
+      dob: '02/25/1950',
+      dod: '05/21/1991',
+      desc: 'pete-pettine.html'
     }),
     new PersonObj({
       name: 'Brian Berger',
@@ -168,6 +211,15 @@ function CalendarService () {
     new PersonObj({
       name: 'Richard Ruggiero',
       images: {1986: 'http://barechest.org/years/1986/1986_07_richard_ruggiero.jpg'},
+      links: [
+        {
+          url:'http://obit.glbthistory.org/olo/imagedb/1988/07/14/19880714_Ruggiero_Richard/m19880714_0.jpg',
+          text: 'Obituary'
+        }
+      ],
+      dob: '04/24/1950',
+      dod: '06/13/1988',
+      desc: 'richard-ruggiero.html'
     }),
     new PersonObj({
       name: 'Bill Tillman',
@@ -196,6 +248,15 @@ function CalendarService () {
     new PersonObj({
       name: 'John Brown',
       images: {1987: 'http://barechest.org/years/1987/1987_02_john_brown.jpg'},
+      links: [
+        {
+          url:'http://obit.glbthistory.org/olo/imagedb/1988/03/24/19880324_Brown_John_K/m19880324_0.jpg',
+          text: 'Obituary'
+        }
+      ],
+      dob: '05/28/1961',
+      dod: '03/18/1988',
+      desc: 'john-brown.html'
     }),
     new PersonObj({
       name: 'Jim Ashley',
@@ -208,6 +269,15 @@ function CalendarService () {
     new PersonObj({
       name: 'David Duran',
       images: {1987: 'http://barechest.org/years/1987/1987_05_david_duran.jpg'},
+      links: [
+        {
+          url:'http://obit.glbthistory.org/olo/imagedb/1991/03/21/19910321_Duran_David_Anthony/m19910321_0.jpg',
+          text: 'Obituary'
+        }
+      ],
+      dob: '09/11/1959',
+      dod: '03/18/1991',
+      desc: 'david-duran.html'
     }),
     new PersonObj({
       name: 'Leonard James-chip',
@@ -220,6 +290,15 @@ function CalendarService () {
     new PersonObj({
       name: 'Michael Chase',
       images: {1987: 'http://barechest.org/years/1987/1987_08_michael_chase.jpg'},
+      links: [
+        {
+          url:'http://obit.glbthistory.org/olo/imagedb/1995/02/09/19950209_Chase_Michael_Ray/m19950209_0.jpg',
+          text: 'Obituary'
+        }
+      ],
+      dob: '08/13/1958',
+      dod: '01/20/1995',
+      desc: 'michael-chase.html'
     }),
     new PersonObj({
       name: 'Joe Nucatola',
@@ -232,6 +311,7 @@ function CalendarService () {
     new PersonObj({
       name: 'Brian Casey',
       images: {1987: 'http://barechest.org/years/1987/1987_11_brian_casey.jpg'},
+      // Possible Obituary http://obit.glbthistory.org/olo/imagedb/1996/10/31/19961031_Casey_Brian_D/m19961031_0.jpg
     }),
     new PersonObj({
       name: 'Ron Beauchemin',
@@ -268,6 +348,15 @@ function CalendarService () {
     new PersonObj({
       name: 'Eric Jazmen',
       images: {1988: 'http://barechest.org/years/1988/1988_09_eric_jazmen.jpg'},
+      links: [
+        {
+          url:'http://obit.glbthistory.org/olo/imagedb/1994/01/20/19940120_Jazmen_Eric/m19940120_0.jpg',
+          text: 'Obituary'
+        }
+      ],
+      dob: '09/14/1956',
+      dod: '01/01/1994',
+      desc: 'eric-jazmen.html'
     }),
     new PersonObj({
       name: 'Joe Falco',
@@ -290,8 +379,21 @@ function CalendarService () {
       images: {1989: 'http://barechest.org/years/1989/1989_02_tyronne_howze.jpg'},
     }),
     new PersonObj({
-      name: 'Steve Condrad',
+      name: 'Steve Conrad',
       images: {1989: 'http://barechest.org/years/1989/1989_03_steve_conrad.jpg'},
+      links: [
+        {
+          url:'http://aidsquilttouch.org/panels/04960-1/636486',
+          text: 'AIDS memorial Quilt Panel'
+        },
+        {
+          url:'http://www.familytreenow.com/record/SjQJQBbAKCOIWk_4w0RCdQ',
+          text: 'Death Record'
+        }
+      ],
+      dob: '02/22/1949',
+      dod: '04/25/1996',
+      desc: 'steve-conrad.html'
     }),
     new PersonObj({
       name: 'Kim Davis',
@@ -316,6 +418,15 @@ function CalendarService () {
     new PersonObj({
       name: 'Phil Tuggle',
       images: {1989: 'http://barechest.org/years/1989/1989_09_phil_tuggle.jpg'},
+      links: [
+        {
+          url:'http://obit.glbthistory.org/olo/imagedb/1992/01/09/19920109_Tuggle_Philip_F/m19920109_0.jpg',
+          text: 'Obituary'
+        }
+      ],
+      dob: '04/30/1953',
+      dod: '12/28/1991',
+      desc: 'phil-tuggle.html'
     }),
     new PersonObj({
       name: 'Jeff Hettmansperger',
@@ -324,6 +435,15 @@ function CalendarService () {
     new PersonObj({
       name: 'Ken McMullen',
       images: {1989: 'http://barechest.org/years/1989/1989_11_ken_mcmullen.jpg'},
+      links: [
+        {
+          url:'http://obit.glbthistory.org/olo/imagedb/1994/06/30/19940630_McMullen_Ken/m19940630_0.jpg',
+          text: 'Obituary'
+        }
+      ],
+      dob: '09/09/1958',
+      dod: '06/23/1994',
+      desc: 'ken-mcmullen.html'
     }),
     new PersonObj({
       name: 'Franklin Liam Liao',
@@ -332,6 +452,31 @@ function CalendarService () {
     new PersonObj({
       name: 'Peter Austin',
       images: {1989: 'http://barechest.org/thumbs_gallery_years/th_1989_12_franklin_lim.jpg'},
+      links: [
+        {
+          url:'http://obit.glbthistory.org/olo/imagedb/1991/02/21/19910221_Austin_Peter_James/m19910221_0.jpg',
+          text: 'Obituary'
+        },
+        {
+          url:'http://aidsquilttouch.org/panels/05710-5/620443',
+          text: 'AIDS memorial quilt panel'
+        },
+        {
+          url:'http://aidsquilttouch.org/panels/05217-5/605058',
+          text: 'AIDS memorial quilt panel 2'
+        },
+        {
+          url:'http://aidsquilttouch.org/panels/01795-5/38721',
+          text: 'AIDS memorial quilt panel 3'
+        },
+        {
+          url:'http://www.findagrave.com/cgi-bin/fg.cgi?page=gr&GRid=95112240',
+          text: 'Memorial listing for him written by family, attributing his death to cancer.'
+        }
+      ],
+      dob: '12/06/1955',
+      dod: '02/13/1991',
+      desc: 'peter-austin.html'
     }),
     new PersonObj({
       name: 'Wally Hanson',
@@ -344,10 +489,28 @@ function CalendarService () {
     new PersonObj({
       name: 'Brett Lancaster',
       images: {1990: 'http://barechest.org/years/1990/1990_03_brett_lancaster.jpg'},
+      links: [
+        {
+          url:'http://obit.glbthistory.org/olo/imagedb/1994/08/04/19940804_Lancaster_Brett_Elvira/m19940804_0.jpg',
+          text: 'Obituary'
+        }
+      ],
+      dob: '09/25/1964',
+      dod: '07/29/1994',
+      desc: 'brett-lancester.html'
     }),
     new PersonObj({
       name: 'Bruce Combs',
       images: {1990: 'http://barechest.org/years/1990/1990_04_bruce_combs.jpg'},
+      links: [
+        {
+          url:'http://obit.glbthistory.org/olo/imagedb/1993/04/22/19930422_Combs_Bruce/m19930422_0.jpg',
+          text: 'Obituary'
+        }
+      ],
+      dob: '04/05/1947',
+      dod: '04/12/1993',
+      desc: 'bruce-combs.html'
     }),
     new PersonObj({
       name: 'Stewart Siegal',
@@ -360,6 +523,7 @@ function CalendarService () {
     new PersonObj({
       name: 'Bradley Cavalier',
       images: {1990: 'http://barechest.org/years/1990/1990_07_bradley_cavalier.jpg'},
+      desc: 'bradley-cavalier.html'
     }),
     new PersonObj({
       name: 'Darrell McQueen',
@@ -376,6 +540,19 @@ function CalendarService () {
     new PersonObj({
       name: 'Mitch Johnson',
       images: {1990: 'http://barechest.org/years/1990/1990_11_mitch_johnson.jpg'},
+      links: [
+        {
+          url:'http://obit.glbthistory.org/olo/imagedb/1993/12/16/19931216_Johnson_Mitchell_Alan/m19931216_0.jpg',
+          text: 'Obituary'
+        },
+        {
+          url:'http://aidsquilttouch.org/panel-all/05710-5',
+          text: 'AIDS Memorial Quilt panel'
+        }
+      ],
+      dob: '02/13/1958',
+      dod: '12/10/1993',
+      desc: 'mitch-johnson.html'
     }),
     new PersonObj({
       name: 'Mike Ferguson',
@@ -400,6 +577,19 @@ function CalendarService () {
     new PersonObj({
       name: 'Grant Dupont',
       images: {1991: 'http://barechest.org/years/1991/1991_05_grant_dupont.jpg'},
+      links: [
+        {
+          url:'http://obit.glbthistory.org/olo/imagedb/2000/01/13/20000113_Dupont_Grant/m20000113_0.jpg',
+          text: 'Obituary'
+        },
+        {
+          url:'http://aidsquilttouch.org/panels/05710-5/620438',
+          text: 'AIDS Memorial Quilt panel'
+        },
+      ],
+      dob: '02/06/1962',
+      dod: '12/30/1999',
+      desc: 'grant-dupont.html'
     }),
     new PersonObj({
       name: 'Joe Fiorentino',
@@ -408,6 +598,7 @@ function CalendarService () {
     new PersonObj({
       name: 'Tom Rodgers',
       images: {1991: 'http://barechest.org/years/1991/1991_07_tom_rodgers.jpg'},
+      desc: 'tom-rodgers.html'
     }),
     new PersonObj({
       name: 'John Dimeo',
@@ -424,7 +615,29 @@ function CalendarService () {
     new PersonObj({
       name: 'Andrew Pear',
       images: {1991: 'http://barechest.org/years/1991/1991_12_andrew_pear.jpg'},
-    }, people)];
+    }),
+    new PersonObj({
+      name: 'Chris Minor',
+      images: {1990: 'http://barechest.org/years/1990/1990_bc_chris_minor.jpg'},
+      links: [
+        {
+          url:'http://obit.glbthistory.org/olo/imagedb/1992/11/12/19921112_Minor-Mullholland_Chris/m19921112_0.jpg',
+          text: 'Obituary'
+        },
+        {
+          url:'http://aidsquilttouch.org/panels/05710-5/620433',
+          text: 'AIDS Memorial Quilt panel'
+        },
+        {
+          url:'http://aidsquilttouch.org/panels/03027-5/69596',
+          text: 'AIDS Memorial Quilt panel 2'
+        },
+      ],
+      dob: '07/13/1965',
+      dod: '11/07/1992',
+      desc: 'chris-minor.html'
+    })
+  ];
   for (var key in p) {
     people[p[key].name] = p[key];
   }
@@ -432,148 +645,148 @@ function CalendarService () {
   people['Brian Berger'].addImage(1988, 'http://barechest.org/years/1988/1988_04_brian_berger.jpg');
 
 
-  this.calendar = {
-    1985 : {
-      cover: 'http://barechest.org/years/1985/1985_fc.jpg',
-      back: '',
-      monthsUnprocessed: [
-        people['Michael Merriot'],
-        people['Steve Green'],
-        people['Miles Mitchell'],
-        people['Jim Cvitanich'],
-        people['(Unknwon)'],
-        people['Mike Hatcher'],
-        people['Kym Whittington'],
-        people['John Carnvalino'],
-        people['Jimmy Smith'],
-        people['Michael Russo'],
-        people['George Aral'],
-        people['Bill Robinson'],
-      ],
-    },
-    1986 : {
-      cover: '',
-      back: '',
-      monthsUnprocessed: [
-        people['Rob Thorton'],
-        people['Michael Rose'],
-        people['Buzz Handley'],
-        people['Mack Lyon'],
-        people['Pete Pettine'],
-        people['Brian Berger'],
-        people['Richard Ruggiero'],
-        people['Bill Tillman'],
-        people['Mark Ferrari'],
-        people['Zoltan Araki'],
-        people['Richard Kirkorian'],
-        people['David Barrett'],
-      ],
-    },
-    1987 : {
-      cover: 'http://barechest.org/years/1987/1987_fc_ron_beauchemin.jpg',
-      back: 'http://barechest.org/years/1987/1987_bc_john_brown.jpg',
-      coverMan: 'Ron Beauchemin',
-      backMan: 'John Brown',
-      monthsUnprocessed: [
-        people['Ron Caspi'],
-        people['John Brown'],
-        people['Jim Ashley'],
-        people['Ron Mikkelson'],
-        people['David Duran'],
-        people['Leonard James-chip'],
-        people['Bill Barker'],
-        people['Michael Chase'],
-        people['Joe Nucatola'],
-        people['Bob Runyon'],
-        people['Brian Casey'],
-        people['Ron Beauchemin'],
-      ],
-    },
-    1988 : {
-      cover: 'http://barechest.org/years/1988/1988_fc_robert_genet.jpg',
-      back: 'http://barechest.org/years/1988/1988_bc_brian_berger.jpg',
-      coverMan: 'Robert Genet',
-      backMan: 'Brian Berger',
-      monthsUnprocessed: [
-        people['Daniel Nemer'],
-        people['Joe Nickerson'],
-        people['Jarvis Payne'],
-        people['Brian Berger'],
-        people['Scott Shelton'],
-        people['Robert Genet'],
-        people['Garry DaFour'],
-        people['Marty Johnson'],
-        people['Eric Jazmen'],
-        people['Joe Falco'],
-        people['Chad Sebold'],
-        people['James Buhler'],
-      ],
-    },
-    1989 : {
-      cover: 'http://barechest.org/years/1989/1989_fc_peter_austin.jpg',
-      back: 'http://barechest.org/years/1989/1989_bc_clayton_aravjo.jpg',
-      coverMan: 'Peter Austin',
-      backMan: 'Clayton Aravio',
-      monthsUnprocessed: [
-        people['Jon DeLeon'],
-        people['Tyronne Howze'],
-        people['Steve Condrad'],
-        people['Kim Davis'],
-        people['Blake Jenks'],
-        people['Shadow MB Reed'],
-        people['Gregg Filips'],
-        people['Clayton Aravjo'],
-        people['Phil Tuggle'],
-        people['Jeff Hettmansperger'],
-        people['Ken McMullen'],
-        [people['Franklin Liam Liao'], people['Peter Austin']],
-      ],
-    },
-    1990 : {
-      cover: 'http://barechest.org/years/1990/1990_fc_bradley_cavalier.jpg',
-      coverMan: 'Bradley Cavalier',
-      backMan: 'Chris Minor',
-      back: 'http://barechest.org/years/1990/1990_bc_chris_minor.jpg',
-      monthsUnprocessed: [
-        people['Wally Hanson'],
-        people['Curtis Greenshaw'],
-        people['Brett Lancaster'],
-        people['Bruce Combs'],
-        people['Stewart Siegal'],
-        people['John Dopp'],
-        people['Bradley Cavalier'],
-        people['Darrell McQueen'],
-        people['James Rueth'],
-        people['Andrew Vasquez'],
-        people['Mitch Johnson'],
-        people['Mike Ferguson'],
-      ],
-    },
-    1991 : {
-      cover: 'http://barechest.org/years/1991/1991_fc_mitch_johnson.jpg',
-      coverMan: 'Mitch Johnson',
-      backMan: 'Andrew Pear',
-      back: 'http://barechest.org/years/1991/1991_bc_andrew_pear.jpg',
-      monthsUnprocessed: [
-        people['Rodney Felix'],
-        people['David Thompson'],
-        people['Jeffrey Weil'],
-        people['Joe Mancini'],
-        people['Grant Dupont'],
-        people['Joe Fiorentino'],
-        people['Tom Rodgers'],
-        people['John Dimeo'],
-        people['Rod Brush'],
-        people['Chuck Russell'],
-        people['Mitch Johnson'],
-        people['Andrew Pear'],
-      ],
-    },
+  this.calendar = {};
+  this.calendar[1985] = {
+    cover: 'http://barechest.org/years/1985/1985_fc.jpg',
+    back: '',
+    monthsUnprocessed: [
+      people['Michael Merriot'],
+      people['Steve Green'],
+      people['Miles Mitchell'],
+      people['Jim Cvitanich'],
+      people['(Unknwon)'],
+      people['Mike Hatcher'],
+      people['Kym Whittington'],
+      people['John Carnvalino'],
+      people['Jimmy Smith'],
+      people['Michael Russo'],
+      people['George Aral'],
+      people['Bill Robinson'],
+    ],
+  };
+  this.calendar[1986] = {
+    cover: '',
+    back: '',
+    monthsUnprocessed: [
+      people['Rob Thorton'],
+      people['Michael Rose'],
+      people['Buzz Handley'],
+      people['Mack Lyon'],
+      people['Pete Pettine'],
+      people['Brian Berger'],
+      people['Richard Ruggiero'],
+      people['Bill Tillman'],
+      people['Mark Ferrari'],
+      people['Zoltan Araki'],
+      people['Richard Kirkorian'],
+      people['David Barrett'],
+    ],
+  };
+  this.calendar[1987] = {
+    cover: 'http://barechest.org/years/1987/1987_fc_ron_beauchemin.jpg',
+    back: 'http://barechest.org/years/1987/1987_bc_john_brown.jpg',
+    coverMan: people['Ron Beauchemin'],
+    backMan: people['John Brown'],
+    monthsUnprocessed: [
+      people['Ron Caspi'],
+      people['John Brown'],
+      people['Jim Ashley'],
+      people['Ron Mikkelson'],
+      people['David Duran'],
+      people['Leonard James-chip'],
+      people['Bill Barker'],
+      people['Michael Chase'],
+      people['Joe Nucatola'],
+      people['Bob Runyon'],
+      people['Brian Casey'],
+      people['Ron Beauchemin'],
+    ],
+  };
+  this.calendar[1988] = {
+    cover: 'http://barechest.org/years/1988/1988_fc_robert_genet.jpg',
+    back: 'http://barechest.org/years/1988/1988_bc_brian_berger.jpg',
+    coverMan: people['Robert Genet'],
+    backMan: people['Brian Berger'],
+    monthsUnprocessed: [
+      people['Daniel Nemer'],
+      people['Joe Nickerson'],
+      people['Jarvis Payne'],
+      people['Brian Berger'],
+      people['Scott Shelton'],
+      people['Robert Genet'],
+      people['Garry DaFour'],
+      people['Marty Johnson'],
+      people['Eric Jazmen'],
+      people['Joe Falco'],
+      people['Chad Sebold'],
+      people['James Buhler'],
+    ],
+  };
+  this.calendar[1989] = {
+    cover: 'http://barechest.org/years/1989/1989_fc_peter_austin.jpg',
+    back: 'http://barechest.org/years/1989/1989_bc_clayton_aravjo.jpg',
+    coverMan: people['Peter Austin'],
+    backMan: people['Clayton Aravio'],
+    monthsUnprocessed: [
+      people['Jon DeLeon'],
+      people['Tyronne Howze'],
+      people['Steve Conrad'],
+      people['Kim Davis'],
+      people['Blake Jenks'],
+      people['Shadow MB Reed'],
+      people['Gregg Filips'],
+      people['Clayton Aravjo'],
+      people['Phil Tuggle'],
+      people['Jeff Hettmansperger'],
+      people['Ken McMullen'],
+      [people['Franklin Liam Liao'], people['Peter Austin']],
+    ],
+  };
+  this.calendar[1990] = {
+    cover: 'http://barechest.org/years/1990/1990_fc_bradley_cavalier.jpg',
+    coverMan: 'Bradley Cavalier',
+    backMan: people['Chris Minor'],
+    back: 'http://barechest.org/years/1990/1990_bc_chris_minor.jpg',
+    monthsUnprocessed: [
+      people['Wally Hanson'],
+      people['Curtis Greenshaw'],
+      people['Brett Lancaster'],
+      people['Bruce Combs'],
+      people['Stewart Siegal'],
+      people['John Dopp'],
+      people['Bradley Cavalier'],
+      people['Darrell McQueen'],
+      people['James Rueth'],
+      people['Andrew Vasquez'],
+      people['Mitch Johnson'],
+      people['Mike Ferguson'],
+    ],
+  };
+  this.calendar[1991] = {
+    cover: 'http://barechest.org/years/1991/1991_fc_mitch_johnson.jpg',
+    coverMan: people['Mitch Johnson'],
+    backMan: people['Andrew Pear'],
+    back: 'http://barechest.org/years/1991/1991_bc_andrew_pear.jpg',
+    monthsUnprocessed: [
+      people['Rodney Felix'],
+      people['David Thompson'],
+      people['Jeffrey Weil'],
+      people['Joe Mancini'],
+      people['Grant Dupont'],
+      people['Joe Fiorentino'],
+      people['Tom Rodgers'],
+      people['John Dimeo'],
+      people['Rod Brush'],
+      people['Chuck Russell'],
+      people['Mitch Johnson'],
+      people['Andrew Pear'],
+    ],
   };
   for (var year in this.calendar) {
     this.calendar[year].months = [];
     for (var monthId in this.calendar[year].monthsUnprocessed) {
       this.calendar[year].months[monthId] = new MonthObj(this.calendar[year].monthsUnprocessed[monthId], year, monthId);
+      this.calendar[year].year = year;
     }
   }
 }

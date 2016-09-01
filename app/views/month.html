@@ -1,6 +1,15 @@
 <ol class="breadcrumb pull-left">
   <li><a href="#/">Home</a></li>
-  <li><a href="#/calendar/{{year}}">{{year}}</a></li>
+  <li>
+    <div class="dropdown">
+      <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenuYear" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        {{year}}
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuYear">
+        <li ng-repeat="year2 in years"  ng-class="{active: year2 == year}"><a href="#/calendar/{{year2}}">{{year2}}</a></li>
+      </ul>
+    </div>
+  </li>
   <li>{{displayMonth}}</li>
 </ol>
 <nav aria-label="Page navigation" class="pull-right month-pager">
@@ -10,20 +19,20 @@
         <span aria-hidden="true">&laquo;</span>
       </a>
     </li>
-    <li ng-if="calendar.cover"><a href="#/calendar/{{year}}/cover">Cover</a></li>
-    <li ng-if="calendar.back"><a href="#/calendar/{{year}}/back">Back</a></li>
-    <li><a href="#/calendar/{{year}}/0">Jan</a></li>
-    <li><a href="#/calendar/{{year}}/1">Feb</a></li>
-    <li><a href="#/calendar/{{year}}/2">Mar</a></li>
-    <li><a href="#/calendar/{{year}}/3">Apr</a></li>
-    <li><a href="#/calendar/{{year}}/4">May</a></li>
-    <li><a href="#/calendar/{{year}}/5">Jun</a></li>
-    <li><a href="#/calendar/{{year}}/6">Jul</a></li>
-    <li><a href="#/calendar/{{year}}/7">Aug</a></li>
-    <li><a href="#/calendar/{{year}}/8">Sep</a></li>
-    <li><a href="#/calendar/{{year}}/9">Oct</a></li>
-    <li><a href="#/calendar/{{year}}/10">Nov</a></li>
-    <li><a href="#/calendar/{{year}}/11">Dec</a></li>
+    <li ng-if="calendar.cover"  ng-class="{active: monthId == 'cover'}"><a href="#/calendar/{{year}}/cover">Cover</a></li>
+    <li ng-if="calendar.back"  ng-class="{active: monthId == 'back'}"><a href="#/calendar/{{year}}/back">Back</a></li>
+    <li ng-class="{active: monthId == 0}"><a href="#/calendar/{{year}}/0">Jan</a></li>
+    <li ng-class="{active: monthId == 1}"><a href="#/calendar/{{year}}/1">Feb</a></li>
+    <li ng-class="{active: monthId == 2}"><a href="#/calendar/{{year}}/2">Mar</a></li>
+    <li ng-class="{active: monthId == 3}"><a href="#/calendar/{{year}}/3">Apr</a></li>
+    <li ng-class="{active: monthId == 4}"><a href="#/calendar/{{year}}/4">May</a></li>
+    <li ng-class="{active: monthId == 5}"><a href="#/calendar/{{year}}/5">Jun</a></li>
+    <li ng-class="{active: monthId == 6}"><a href="#/calendar/{{year}}/6">Jul</a></li>
+    <li ng-class="{active: monthId == 7}"><a href="#/calendar/{{year}}/7">Aug</a></li>
+    <li ng-class="{active: monthId == 8}"><a href="#/calendar/{{year}}/8">Sep</a></li>
+    <li ng-class="{active: monthId == 9}"><a href="#/calendar/{{year}}/9">Oct</a></li>
+    <li ng-class="{active: monthId == 10}"><a href="#/calendar/{{year}}/10">Nov</a></li>
+    <li ng-class="{active: monthId == 11}"><a href="#/calendar/{{year}}/11">Dec</a></li>
     <li ng-class="{'disabled': next === false}">
       <a href="#/calendar/{{year}}/{{next}}" aria-label="Next">
         <span aria-hidden="true">&raquo;</span>
@@ -38,7 +47,7 @@
 <div class="container-fluid calendars-wrapper">
   <div class="row month-wrapper" >
     <div class="col-sm-12">
-      <img class="img-responsive thumbnail month-image" src="{{image}}" ng-class="{'center-block': descCount == 0, 'pull-right month-image--with-desc': descCount > 0}">
+      <img class="img-responsive thumbnail month-image" src="{{image}}" ng-class="{'center-block': descCount == 0, 'pull-right month-image--with-desc': descCount > 0}" fallback-src loading-src>
       <div ng-repeat="person in people" ng-if="people">
         <h3 ng-if="descCount > 1">{{person.name}}</h3>
         <p ng-if="person.dob" class="lead">{{person.dob | date:'fullDate'}} <span ng-if="person.dod"> - {{person.dod | date:'fullDate'}}</span></p>

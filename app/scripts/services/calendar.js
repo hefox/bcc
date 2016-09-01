@@ -15,6 +15,7 @@ function PersonObj(info) {
   for (var key in info) {
     this[key] = info[key];
   }
+  this.months = [];
 }
 
 /**
@@ -28,7 +29,8 @@ PersonObj.prototype.addImage = function(year, image) {
  * Returns the image for the requested year.
  */
 PersonObj.prototype.getImage = function(year) {
-  return this.images[year];
+  var ke = Object.keys(this.images);
+  return year ? this.images[year] : this.images[ke.shift()];
 };
 
 /**
@@ -77,9 +79,15 @@ MonthObj.prototype.getImage = function() {
 /**
  * Returns the month name.
  */
-MonthObj.prototype.getMonthName = function() {
+MonthObj.prototype.getMonthName = function(month) {
   var monthNames = ['January', 'February', 'March', 'April', 'May', 'June','July', 'August', 'September', 'October', 'November', 'December'];
-  return monthNames[this.monthId];
+  if (month === 'cover') {
+    return 'Cover';
+  }
+  if (month === 'back') {
+    return 'Back';
+  }
+  return monthNames[month? month : this.monthId];
 };
 
 /**
@@ -697,6 +705,7 @@ function CalendarService () {
   people['Mitch Johnson'].addImage(1991, 'http://barechest.org/years/1991/1991_11_mitch_johnson.jpg');
   people['Brian Berger'].addImage(1988, 'http://barechest.org/years/1988/1988_04_brian_berger.jpg');
   people['Grant Dupont'].addImage(1992, 'http://barechest.org/years/1992/1992_02_grant_dupont.jpg');
+  this.people = people;
 
 
 
@@ -799,7 +808,7 @@ function CalendarService () {
   };
   this.calendar[1990] = {
     cover: 'http://barechest.org/years/1990/1990_fc_bradley_cavalier.jpg',
-    coverMan: 'Bradley Cavalier',
+    coverMan: people['Bradley Cavalier'],
     backMan: people['Chris Minor'],
     back: 'http://barechest.org/years/1990/1990_bc_chris_minor.jpg',
     monthsUnprocessed: [
@@ -862,6 +871,18 @@ function CalendarService () {
     for (var monthId in this.calendar[year].monthsUnprocessed) {
       this.calendar[year].months[monthId] = new MonthObj(this.calendar[year].monthsUnprocessed[monthId], year, monthId);
       this.calendar[year].year = year;
+      for (var pid in this.calendar[year].months[monthId].people) {
+        if (this.calendar[year].months[monthId].people[pid]) {
+          this.calendar[year].months[monthId].people[pid].months.push({year: year, monthId: monthId});
+        }
+      }
+    }
+    if (this.calendar[year].coverMan) {
+      console.log(this.calendar[year].coverMan);
+      this.calendar[year].coverMan.months.push({year: year, monthId: 'cover'});
+    }
+    if (this.calendar[year].backMan) {
+      this.calendar[year].backMan.months.push({year: year, monthId: 'back'});
     }
   }
 }
@@ -874,6 +895,23 @@ function CalendarService () {
  */
 CalendarService.prototype.getCalendar = function(year) {
   return year ? this.calendar[year] : this.calendar;
+};
+
+/**
+ * Returns calendar information.
+ *
+ * @param year (optional)
+ *  If year is specified, returns for that year.
+ */
+CalendarService.prototype.getPeople = function() {
+  return this.people;
+};
+
+/**
+ * Returns all the years.
+ */
+CalendarService.prototype.getYears = function() {
+  return Object.keys(this.calendar);
 };
 
 /**

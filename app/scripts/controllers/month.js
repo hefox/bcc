@@ -10,6 +10,7 @@
 angular.module('bccApp')
   .controller('MonthCtrl', function (calendarService, $scope, $routeParams) {
     $scope.year = $routeParams.year;
+    $scope.years = calendarService.getYears();
     $scope.monthId = $routeParams.monthId;
     $scope.calendar = calendarService.getCalendar($scope.year);
     $scope.descCount = 0;
@@ -23,7 +24,9 @@ angular.module('bccApp')
       $scope.people = [];
       if ($scope.calendar.coverMan) {
         $scope.people.push($scope.calendar.coverMan);
-        $scope.descCount++;
+        if ($scope.calendar.coverMan.desc) {
+          $scope.descCount++;
+        }
       }
     }
     else if ($scope.monthId === 'back') {
@@ -36,7 +39,9 @@ angular.module('bccApp')
       $scope.people = [];
       if ($scope.calendar.backMan) {
         $scope.people.push($scope.calendar.backMan);
-        $scope.descCount++;
+        if ($scope.calendar.backMan.desc) {
+          $scope.descCount++;
+        }
       }
     }
     else {

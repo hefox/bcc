@@ -36,6 +36,10 @@ angular
         templateUrl: 'views/history.html',
         controller: 'PageCtrl',
       })
+      .when('/gonenotforgotten', {
+        templateUrl: 'views/dead.html',
+        controller: 'DeadCtrl',
+      })
       .otherwise({
         redirectTo: '/'
       });

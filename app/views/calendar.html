@@ -1,18 +1,27 @@
 <ol class="breadcrumb pull-left">
   <li><a href="#/">Home</a></li>
-  <li>{{year}}</li>
+  <li>
+    <div class="dropdown">
+      <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenuYear" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        {{year}}
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuYear">
+        <li ng-repeat="year2 in years" ng-class="{active: year2 == year}"><a href="#/calendar/{{year2}}">{{year2}}</a></li>
+      </ul>
+    </div>
+  </li>
 </ol>
 <span class="clearfix"></span>
 <div class="container-fluid calendars-wrapper">
   <div class="row" ng-if="calendar.cover">
     <div class="col-sm-6">
       <a href="#/calendar/{{year}}/cover" class="thumbnail">
-        <img ng-src="{{calendar.cover}}" alt="Cover Image">
+        <img ng-src="{{calendar.cover}}" alt="Cover Image" fallback-src loading-src>
       </a>
     </div>
     <div class="col-sm-6" ng-if="calendar.back">
       <a href="#/calendar/{{year}}/back" class="thumbnail">
-        <img ng-src="{{calendar.back}}" alt="Back Image">
+        <img ng-src="{{calendar.back}}" alt="Back Image" fallback-src loading-src>
       </a>
     </div>
   </div>
@@ -20,7 +29,7 @@
     <div ng-repeat="(key, month) in calendar.months">
       <div class="col-sm-3">
         <a href="#/calendar/{{year}}/{{key}}" class="thumbnail">
-          <img ng-src="{{month.getImage()}}" alt="{{month.getDisplayName()}}">
+          <img ng-src="{{month.getImage()}}" alt="{{month.getDisplayName()}}" fallback-src loading-src>
           <div class="caption">
             <div class="caption-inner">
               <h3>{{month.getDisplayName()}}</h3>

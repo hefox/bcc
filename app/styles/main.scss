@@ -100,6 +100,11 @@ h1, h2, h3 {
   display: table;
 }
 
+
+.breadcrumb > li + li:before {
+  content: none;
+}
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
 }

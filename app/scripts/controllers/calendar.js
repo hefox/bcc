@@ -13,4 +13,5 @@ angular.module('bccApp')
     $scope.calendar = calendarService.getCalendar($scope.year);
     $scope.getCalendarCover = calendarService.getCalendarCover;
     $scope.displayName = calendarService.getCalendarMonthDisplayName;
+    $scope.years = calendarService.getYears();
   });

@@ -7,7 +7,7 @@
     <div ng-repeat="(year, calendar) in calendars track by $index" ng-if="calendar">
       <div class="col-sm-2">
         <a href="#/calendar/{{calendar.year}}" class="thumbnail">
-          <img ng-src="{{getCalendarCover(calendar)}}" alt="{{calendar.year}}" class="img-rounded">
+          <img ng-src="{{getCalendarCover(calendar)}}" alt="{{calendar.year}}" class="img-rounded" fallback-src loading-src>
           <div class="caption">
             <h3>{{calendar.year}}</h3>
           </div>

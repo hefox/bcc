@@ -878,7 +878,6 @@ function CalendarService () {
       }
     }
     if (this.calendar[year].coverMan) {
-      console.log(this.calendar[year].coverMan);
       this.calendar[year].coverMan.months.push({year: year, monthId: 'cover'});
     }
     if (this.calendar[year].backMan) {

@@ -12,7 +12,6 @@ angular.module('bccApp')
     $scope.calendars = calendarService.getCalendar();
     var people = calendarService.getPeople();
     $scope.dead = [];
-    console.log(people);
     for (var pid in people) {
       if (people[pid].dod) {
         people[pid].image = people[pid].getImage();

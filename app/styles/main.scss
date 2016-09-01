@@ -68,6 +68,7 @@ h1, h2, h3 {
   position: relative;
 }
 .calendars-wrappers .caption h3,
+.calendars-wrappers .caption h4,
 .calendars-wrapper .caption .caption-inner {
   margin: 5px 20px;
   padding: 0;
@@ -82,6 +83,16 @@ h1, h2, h3 {
    width: 100%;
    opacity: .5;
    text-align: center;
+}
+
+@media (min-width: 992px) {
+  .calendars-wrappers .col-sm-4 .caption,
+  .calendars-wrapper .col-sm-4 .caption {
+    top: 150px;
+  }
+  .calendars-wrappers .col-sm-4 img {
+    min-height: 150px;
+  }
 }
 .calendars-wrapper .caption {
   bottom: 20px;

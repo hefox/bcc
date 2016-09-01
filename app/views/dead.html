@@ -5,6 +5,11 @@
 <span class="clearfix"></span>
 <div class="container-fluid calendars-wrappers">
   <div class="row">
+    <div class="col-sm-12">
+      <p class="lead">These are some of the calendar men that have passed on. This was done for most part by connecting names in obituaries and comparing faces, there may be some inaccuracies. Please contact us with any corrections.</p>
+    </div>
+  </div>
+  <div class="row">
     <div ng-repeat="person in dead track by $index" ng-if="person">
       <div class="col-sm-4">
           <img ng-src="{{person.image}}" alt="{{person.name}}" class="img-responsive thumbnail  img-rounded" fallback-src loading-src>
@@ -12,10 +17,12 @@
             <h3>{{person.name}}</h3>
             <span ng-repeat="mo in person.months">
               <a href="#/calendar/{{mo.year}}/{{mo.monthId}}">
-                <h3>{{mo.year}}, {{ getMonthName(mo.monthId) }}</h3>
+                <h3 ng-if="mo.monthId != 'cover' && mo.monthId != 'back'">Mr. {{ getMonthName(mo.monthId) }} {{mo.year}} </h3>
+                <h3 ng-if="mo.monthId == 'cover'">Cover page of {{mo.year}} </h3>
+                <h3 ng-if="mo.monthId == 'back'">Back page of {{mo.year}} </h3>
               </a>
             </span>
-            <h3>{{person.dob | date:'fullDate'}} - {{person.dod | date:'fullDate'}}</h4>
+            <h4>{{person.dob | date:'fullDate'}} - {{person.dod | date:'fullDate'}}</h4>
           </div>
         </a>
       </div>

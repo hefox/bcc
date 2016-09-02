@@ -413,7 +413,7 @@ function CalendarService () {
     }),
     new PersonObj({
       name: 'Shadow MB Reed',
-      images: {1989: 'http://barechest.org/thumbs_gallery_years/th_1989_06_shadow_morto.jpg'},
+      images: {1989: 'http://barechest.org/years/1995/1989_06_shadow_morto.jpg'},
     }),
     new PersonObj({
       name: 'Gregg Filips',
@@ -455,11 +455,11 @@ function CalendarService () {
     }),
     new PersonObj({
       name: 'Franklin Liam Liao',
-      images: {1989: 'http://barechest.org/thumbs_gallery_years/th_1989_12_franklin_lim.jpg'},
+      images: {1989: 'http://barechest.org/years/1995/1989_12_franklin_lim.jpg'},
     }),
     new PersonObj({
       name: 'Peter Austin',
-      images: {1989: 'http://barechest.org/thumbs_gallery_years/th_1989_12_franklin_lim.jpg'},
+      images: {1989: 'http://barechest.org/years/1995/1989_12_franklin_lim.jpg'},
       links: [
         {
           url:'http://obit.glbthistory.org/olo/imagedb/1991/02/21/19910221_Austin_Peter_James/m19910221_0.jpg',
@@ -492,7 +492,7 @@ function CalendarService () {
     }),
     new PersonObj({
       name: 'Curtis Greenshaw',
-      images: {1990: 'http://barechest.org/thumbs_gallery_years/th_1990_02_curtis_greenshaw.jpg'},
+      images: {1990: 'http://barechest.org/years/1995/1990_02_curtis_greenshaw.jpg'},
     }),
     new PersonObj({
       name: 'Brett Lancaster',
@@ -659,7 +659,7 @@ function CalendarService () {
     }),
     new PersonObj({
       name: 'Michael Fiumara',
-      images: {1992: 'http://barechest.org/thumbs_gallery_years/th_1992_05_michael_fiumara.jpg'},
+      images: {1992: 'http://barechest.org/years/1995/1992_05_michael_fiumara.jpg'},
       links: [
         {
           url:'https://books.google.com/books?id=c5MCAAAAMBAJ&lpg=PP1&dq=New%20York%20Magazine%20Jun%2020%2C%201994&pg=PP1#v=onepage&q&f=false',
@@ -698,13 +698,184 @@ function CalendarService () {
       images: {1992: 'http://barechest.org/years/1992/1992_12_art_tomaszewski.jpg'},
       desc: 'art-tomaszewski.html'
     }),
+    new PersonObj({
+      name: 'Wolf Mirasol',
+      images: {1993: 'http://barechest.org/years/1993/1993_01_wolf_mirasol.jpg'},
+      // he's a fitness instructor?
+    }),
+    new PersonObj({
+      name: 'Dieter Edwards',
+      images: {1993: 'http://barechest.org/years/1993/1993_02_dieter_edwards.jpg'},
+    }),
+    new PersonObj({
+      name: 'Nick Visconti',
+      images: {1993: 'http://barechest.org/years/1993/1993_03_nick_visconti.jpg'},
+    }),
+    new PersonObj({
+      name: 'Joe McMurray',
+      images: {1993: 'http://barechest.org/years/1993/1993_04_joe_mcmurray.jpg'},
+    }),
+    new PersonObj({
+      name: 'David Lomada',
+      images: {1993: 'http://barechest.org/years/1993/1993_05_david_lomada.jpg'},
+    }),
+    new PersonObj({
+      name: 'Lonnie Tuck',
+      images: {1993: 'http://barechest.org/years/1993/1993_06_lonnie_tuck.jpg'},
+      //http://dev.successcentersf.org/team/lonnie-truck/
+    }),
+    new PersonObj({
+      name: 'Taylor Poff',
+      images: {1993: 'http://barechest.org/years/1993/1993_08_taylor_poff.jpg'},
+      // Maybe https://www.facebook.com/allen.t.poff
+    }),
+    new PersonObj({
+      name: 'Michael Zwaan',
+      images: {1993: 'http://barechest.org/years/1993/1993_09_michael_zwaan.jpg'},
+    }),
+    new PersonObj({
+      name: 'Daniel DeLeon',
+      images: {1993: 'http://barechest.org/years/1993/1993_10_daniel_deleon.jpg'},
+    }),
+    new PersonObj({
+      name: 'Bob Harrison',
+      images: {1993: 'http://barechest.org/years/1993/1993_11_bob_harrison.jpg'},
+      links: [
+        {
+          url:'http://obit.glbthistory.org/olo/imagedb/1994/07/07/19940707_Harrison_Robert_Franklin_Bob/m19940707_0.jpg',
+          text: 'Obituary'
+        },
+      ],
+      dob: '04/15/1948',
+      dod: '06/29/1994',
+      desc: 'bob-harrison.html'
+    }),
+    new PersonObj({
+      name: 'Chris Winkel',
+      images: {1993: 'http://barechest.org/years/1993/1993_12_chris_winkel.jpg'},
+    }),
+    new PersonObj({
+      name: 'Reed Morrow',
+      images: {1994: 'http://barechest.org/years/1994/1994_02_reed_morrow.jpg'},
+    }),
+    new PersonObj({
+      name: 'Albert Wyss',
+      images: {1994: 'http://barechest.org/years/1994/1994_03_albert_wyss.jpg'},
+    }),
+    new PersonObj({
+      name: 'Ted Downer',
+      images: {1994: 'http://barechest.org/years/1994/1994_04_ted_downer.jpg'},
+    }),
+    new PersonObj({
+      name: 'Jeff Olney',
+      images: {1994: 'http://barechest.org/years/1994/1994_05_jeff_olney.jpg'},
+    }),
+    new PersonObj({
+      name: 'Lee Tucker',
+      images: {1994: 'http://barechest.org/years/1994/1994_06_lee_tucker.jpg'},
+    }),
+    new PersonObj({
+      // http://obit.glbthistory.org/olo/imagedb/1999/04/01/19990401_Austin_Mark/m19990401_0.jpg ??
+      name: 'Mark Austin',
+      images: {1994: 'http://barechest.org/years/1994/1994_07_mark_austin.jpg'},
+    }),
+    new PersonObj({
+      name: 'Dennis Richards',
+      images: {1994: 'http://barechest.org/years/1994/1994_08_dennis_richards.jpg'},
+    }),
+    new PersonObj({
+      name: 'Jeff Kennedy',
+      images: {1994: 'http://barechest.org/years/1994/1994_09_jeff_kennedy.jpg'},
+    }),
+    new PersonObj({
+      name: 'Peter Dorian',
+      images: {1994: 'http://barechest.org/years/1994/1994_10_peter_dorian.jpg'},
+      links: [
+        {
+          url:'http://obit.glbthistory.org/olo/imagedb/1995/11/16/19951116_Dorian_Peter/m19951116_0.jpg',
+          text: 'Obituary'
+        },
+      ],
+      dob: '06/29/1954',
+      dod: '10/01/1995',
+      desc: 'peter-dorian.html'
+    }),
+    new PersonObj({
+      name: 'Sid Toress',
+      images: {1994: 'http://barechest.org/years/1994/1994_11_sid_torres.jpg'},
+    }),
+    new PersonObj({
+      name: 'Bruce Starr',
+      images: {1994: 'http://barechest.org/years/1994/1994_12_bruce_starr.jpg'},
+      links: [
+        {
+          url:'http://obit.glbthistory.org/olo/imagedb/2009/12/03/20091203_Starr_Bruce/m20091203_0.jpg',
+          text: 'Obituary'
+        },
+      ],
+      dob: '03/12/1956',
+      dod: '10/28/2009',
+      desc: 'bruce-starr.html'
+    }),
+    new PersonObj({
+      name: 'Mikey Cross',
+      images: {1995: 'http://barechest.org/years/1995/1995_01_mike_cross_mikey.jpg'},
+    }),
+    new PersonObj({
+      name: 'Mike Torkildsen',
+      images: {1995: 'http://barechest.org/years/1995/1995_03_mike_torkildsen.jpg'},
+    }),
+    new PersonObj({
+      name: 'Eliot \'Buck\' Sierra',
+      images: {1995: 'http://barechest.org/years/1995/1995_04_eliot_sierra.jpg'},
+    }),
+    new PersonObj({
+      name: 'David Magness',
+      images: {1995: 'http://barechest.org/years/1995/1995_05_david_magness.jpg'},
+    }),
+    new PersonObj({
+      name: 'Charlie Seltz',
+      images: {1995: 'http://barechest.org/years/1995/1995_06_charlie_seltz.jpg'},
+    }),
+    new PersonObj({
+      name: 'Jim Gatteau',
+      images: {1995: 'http://barechest.org/years/1995/1995_07_jim_gatteau.jpg'},
+    }),
+    new PersonObj({
+      name: 'Mark Johansen',
+      images: {1995: 'http://barechest.org/years/1995/1995_08_mark_johansen.jpg'},
+    }),
+    new PersonObj({
+      name: 'Alex Saldarriaga',
+      images: {1995: 'http://barechest.org/years/1995/1995_09_alex_saldarriaga.jpg'},
+    }),
+    new PersonObj({
+      name: 'Devin MacLachlan',
+      images: {1995: 'http://barechest.org/years/1995/1995_10_devin_maclachlan.jpg'},
+      // http://www.nytimes.com/2011/10/16/fashion/weddings/devin-maclachlan-bruce-marcus-weddings.html?_r=0 ?
+      // http://www.ido.events/creative/ ??
+    }),
+    new PersonObj({
+      name: 'Bob Toner',
+      images: {1995: 'http://barechest.org/years/1995/1995_11_bob_toner.jpg'},
+    }),
+    new PersonObj({
+      name: 'Robert \'Scott\' Sherrill',
+      images: {1995: 'http://barechest.org/years/1995/1995_12_robert_sherrill.jpg'},
+    }),
   ];
   for (var key in p) {
+    if (people[p[key].name]) {
+      window.alert('dupliate ' + p[key].name);
+    }
     people[p[key].name] = p[key];
   }
   people['Mitch Johnson'].addImage(1991, 'http://barechest.org/years/1991/1991_11_mitch_johnson.jpg');
   people['Brian Berger'].addImage(1988, 'http://barechest.org/years/1988/1988_04_brian_berger.jpg');
   people['Grant Dupont'].addImage(1992, 'http://barechest.org/years/1992/1992_02_grant_dupont.jpg');
+  people['Kevin Sims'].addImage(1993, 'http://barechest.org/years/1993/1993_07_kevin_sims.jpg');
+  people['Kevin Sims'].addImage(1994, 'http://barechest.org/years/1994/1994_01_kevin_sims.jpg');
+  people['Lee Tucker'].addImage(1995, 'http://barechest.org/years/1995/1995_02_lee_tucker.jpg');
   this.people = people;
 
 
@@ -864,6 +1035,66 @@ function CalendarService () {
       people['Kevin Sims'],
       people['Andy Anderson'],
       people['Art Tomaszewski'],
+    ],
+  };
+  this.calendar[1993] = {
+    cover: 'http://barechest.org/years/1993/1993_fc_joe_mcmurray.jpg',
+    coverMan: people['Joe McMurray'],
+    backMan: people['Bob Harrison'],
+    back: 'http://barechest.org/years/1993/1993_bc_bob_harrison.jpg',
+    monthsUnprocessed: [
+      people['Wolf Mirasol'],
+      people['Dieter Edwards'],
+      people['Nick Visconti'],
+      people['Joe McMurray'],
+      people['David Lomada'],
+      people['Lonnie Tuck'],
+      people['Kevin Sims'],
+      people['Taylor Poff'],
+      people['Michael Zwaan'],
+      people['Daniel DeLeon'],
+      people['Bob Harrison'],
+      people['Chris Winkel'],
+    ],
+  };
+  this.calendar[1994] = {
+    cover: 'http://barechest.org/years/1994/1994_fc_jeff_kennedy.jpg',
+    coverMan: people['Jeff Kennedy'],
+    backMan: people['Albert Wyss'],
+    back: 'http://barechest.org/years/1994/1994_bc_albert_wyss.jpg',
+    monthsUnprocessed: [
+      people['Kevin Sims'],
+      people['Reed Morrow'],
+      people['Albert Wyss'],
+      people['Ted Downer'],
+      people['Jeff Olney'],
+      people['Lee Tucker'],
+      people['Mark Austin'],
+      people['Dennis Richards'],
+      people['Jeff Kennedy'],
+      people['Peter Dorian'],
+      people['Sid Toress'],
+      people['Bruce Starr'],
+    ],
+  };
+  this.calendar[1995] = {
+    cover: 'http://barechest.org/years/1995/1995_fc_mark_johansen.jpg',
+    coverMan: people['Mark Johansen'],
+    backMan: people['Alex Saldarriaga'],
+    back: 'http://barechest.org/years/1995/1995_bc_alex_saldarriaga.jpg',
+    monthsUnprocessed: [
+      people['Mikey Cross'],
+      people['Lee Tucker'],
+      people['Mike Torkildsen'],
+      people['Eliot \'Buck\' Sierra'],
+      people['David Magness'],
+      people['Charlie Seltz'],
+      people['Jim Gatteau'],
+      people['Mark Johansen'],
+      people['Alex Saldarriaga'],
+      people['Devin MacLachlan'],
+      people['Bob Toner'],
+      people['Robert \'Scott\' Sherrill'],
     ],
   };
   for (var year in this.calendar) {

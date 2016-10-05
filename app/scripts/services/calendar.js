@@ -773,6 +773,7 @@ function CalendarService () {
     new PersonObj({
       name: 'Lee Tucker',
       images: {1994: 'http://barechest.org/years/1994/1994_06_lee_tucker.jpg'},
+      // https://www.facebook.com/sfleetucker/about ??
     }),
     new PersonObj({
       // http://obit.glbthistory.org/olo/imagedb/1999/04/01/19990401_Austin_Mark/m19990401_0.jpg ??
@@ -840,6 +841,7 @@ function CalendarService () {
     new PersonObj({
       name: 'Jim Gatteau',
       images: {1995: 'http://barechest.org/years/1995/1995_07_jim_gatteau.jpg'},
+      // https://www.linkedin.com/in/jim-gatteau-58b66a95
     }),
     new PersonObj({
       name: 'Mark Johansen',
@@ -848,6 +850,8 @@ function CalendarService () {
     new PersonObj({
       name: 'Alex Saldarriaga',
       images: {1995: 'http://barechest.org/years/1995/1995_09_alex_saldarriaga.jpg'},
+      // https://www.facebook.com/alex.saldarriaga.14
+      // http://www.sfexaminer.com/alex-saldarriaga-small-business-person-of-the-year/
     }),
     new PersonObj({
       name: 'Devin MacLachlan',
@@ -863,6 +867,278 @@ function CalendarService () {
       name: 'Robert \'Scott\' Sherrill',
       images: {1995: 'http://barechest.org/years/1995/1995_12_robert_sherrill.jpg'},
     }),
+    new PersonObj({
+      name: 'Tommy Reaves',
+      images: {1996: 'http://barechest.org/years/1996/1996_02_tommy_reaves.jpg'},
+    }),
+    new PersonObj({
+      name: 'Jim Donahue',
+      images: {1996: 'http://barechest.org/years/1996/1996_03_jim_donahue.jpg'},
+    }),
+    new PersonObj({
+      name: 'Kirke Watson',
+      images: {1996: 'http://barechest.org/years/1996/1996_04_kirke_watson.jpg'},
+    }),
+    new PersonObj({
+      name: 'Ron Telles',
+      images: {1996: 'http://barechest.org/years/1996/1996_05_ron_telles.jpg'},
+    }),
+    new PersonObj({
+      name: 'Wolf & Andy',
+      images: {1996: 'http://barechest.org/thumbs_gallery_years/th_96_06_wolf-andy.jpg'},
+    }),
+    new PersonObj({
+      name: 'Gary Lindstrum',
+      images: {1996: 'http://barechest.org/years/1996/1996_07_gary_lindstrum.jpg'},
+    }),
+    new PersonObj({
+      name: 'John Bleyle',
+      images: {1996: 'http://barechest.org/years/1996/1996_08_john_bleyle.jpg'},
+    }),
+    new PersonObj({
+      name: 'Jeff Buppert',
+      images: {1996: 'http://barechest.org/years/1996/1996_09_jeff_buppert.jpg'},
+    }),
+    new PersonObj({
+      name: 'Martyn Jones',
+      images: {1996: 'http://barechest.org/years/1996/1996_10_martyn_jones.jpg'},
+    }),
+    new PersonObj({
+      name: 'Mike Greenberg',
+      images: {1996: 'http://barechest.org/years/1996/1996_11_mike_greenberg.jpg'},
+    }),
+    new PersonObj({
+      name: 'Felix Novy',
+      images: {1997: 'http://barechest.org/years/1997/1997_01_felix_novy.jpg'},
+    }),
+    new PersonObj({
+      name: 'Joey Faria',
+      images: {1997: 'http://barechest.org/years/1997/1997_02_joey_faria.jpg'},
+    }),
+    new PersonObj({
+      name: 'Randy Wright',
+      images: {1997: 'http://barechest.org/years/1997/1997_03_randy_wright.jpg'},
+    }),
+    new PersonObj({
+      name: 'Thomas Powers',
+      images: {1997: 'http://barechest.org/years/1997/1997_04_thomas_powers.jpg'},
+    }),
+    new PersonObj({
+      name: 'Juan Carlos',
+      images: {1997: 'http://barechest.org/years/1997/1997_05_juan_carlos.jpg'},
+    }),
+    new PersonObj({
+      name: 'Stuart Kloda',
+      images: {1997: 'http://barechest.org/years/1997/1997_06_stuart_kloda.jpg'},
+    }),
+    new PersonObj({
+      name: '??',
+      images: {1997: 'http://barechest.org/thumbs_gallery_years/th1997july.jpg'},
+    }),
+    new PersonObj({
+      name: 'Lynn McCameron',
+      images: {1997: 'http://barechest.org/years/1997/1997_08_lynn_mccameron.jpg'},
+    }),
+    new PersonObj({
+      name: 'Michael Wieland',
+      images: {1997: 'http://barechest.org/years/1997/1997_09_michael_wieland.jpg'},
+    }),
+    new PersonObj({
+      name: 'Mike Rand',
+      images: {1997: 'http://barechest.org/years/1997/1997_10_mike_rand.jpg'},
+    }),
+    new PersonObj({
+      name: 'John Edwards',
+      images: {1997: 'http://barechest.org/years/1997/1997_11_john_edwards.jpg'},
+    }),
+    new PersonObj({
+      name: 'Alex Hill',
+      images: {1997: 'http://barechest.org/years/1997/1997_12_alex_hill.jpg'},
+    }),
+    new PersonObj({
+      name: 'Andre English',
+      images: {1998: 'http://barechest.org/years/1998/1998_01_andre_english.jpg'},
+    }),
+    new PersonObj({
+      name: 'Bob Goldfarb',
+      images: {1998: 'http://barechest.org/years/1998/1998_02_bob_goldfarb.jpg'},
+    }),
+    new PersonObj({
+      name: 'Jim Cassiol',
+      images: {1998: 'http://barechest.org/years/1998/1998_03_jim_cassiol.jpg'},
+    }),
+    new PersonObj({
+      name: 'Mark Seeba',
+      images: {1998: 'http://barechest.org/years/1998/1998_04_mark_seeba.jpg'},
+    }),
+    new PersonObj({
+      name: 'Christopher Ward',
+      images: {1998: 'http://barechest.org/years/1998/1998_05_christopher_ward.jpg'},
+    }),
+    new PersonObj({
+      name: 'David Edwards',
+      images: {1998: 'http://barechest.org/years/1998/1998_06_david_edwards.jpg'},
+    }),
+    new PersonObj({
+      name: 'Ken Lyght',
+      images: {1998: 'http://barechest.org/years/1998/1998_07_ken_lyght.jpg'},
+    }),
+    new PersonObj({
+      name: 'Mike Lion',
+      images: {1998: 'http://barechest.org/years/1998/1998_08_mike_lion.jpg'},
+    }),
+    new PersonObj({
+      name: 'Andy Shore',
+      images: {1998: 'http://barechest.org/years/1998/1998_09_andy_shore.jpg'},
+    }),
+    new PersonObj({
+      name: 'Cory Iwatsu',
+      images: {1998: 'http://barechest.org/years/1998/1998_10_cory_iwatsu.jpg'},
+    }),
+    new PersonObj({
+      name: 'Ingu Yun',
+      images: {1998: 'http://barechest.org/years/1998/1998_11_ingu_yun.jpg'},
+    }),
+    new PersonObj({
+      name: 'Glennon Sutter',
+      images: {1998: 'http://barechest.org/years/1998/1998_12_glennon_sutter.jpg'},
+    }),
+    new PersonObj({
+      name: 'Terry Gauchat',
+      images: {1999: 'http://barechest.org/thumbs_gallery_years/th_1999_01_terry_gauchat.jpg'},
+    }),
+    new PersonObj({
+      name: 'Frank Parker',
+      images: {1999: 'http://barechest.org/thumbs_gallery_years/th_1999_02_frank_parker.jpg'},
+    }),
+    new PersonObj({
+      name: 'Ali Shovieb',
+      images: {1999: 'http://barechest.org/thumbs_gallery_years/th_1999_03_ali_shovieb.jpg'},
+    }),
+    new PersonObj({
+      name: 'Paul Tucci',
+      images: {1999: 'http://barechest.org/thumbs_gallery_years/th_1999_04_paul_tucci.jpg'},
+    }),
+    new PersonObj({
+      name: 'Gregg Schamberger',
+      images: {1999: 'http://barechest.org/thumbs_gallery_years/th_999_05_gregg_schamberger.jpg'},
+    }),
+    new PersonObj({
+      name: 'Doug Harrison',
+      images: {1999: 'http://barechest.org/thumbs_gallery_years/th_1999_06_doug_harrison.jpg'},
+    }),
+    new PersonObj({
+      name: 'Ben Greenwell',
+      images: {1999: 'http://barechest.org/thumbs_gallery_years/th_1999_07_ben_greenwell.jpg'},
+    }),
+    new PersonObj({
+      name: 'Perry Brandon',
+      images: {1999: 'http://barechest.org/thumbs_gallery_years/th_1999_08_perry_brandon.jpg'},
+    }),
+    new PersonObj({
+      name: 'Brent Cassidy',
+      images: {1999: 'http://barechest.org/thumbs_gallery_years/th_1999_09_brent_cassidy.jpg'},
+    }),
+    new PersonObj({
+      name: 'Joe Imbriani',
+      images: {1999: 'http://barechest.org/thumbs_gallery_years/th_1999_10_joe_imbriani.jpg'},
+    }),
+    new PersonObj({
+      name: 'Dutch Van Horn',
+      images: {1999: 'http://barechest.org/thumbs_gallery_years/th_1999_11_dutch.jpg'},
+    }),
+    new PersonObj({
+      name: 'Marvin Ross',
+      images: {1999: 'http://barechest.org/thumbs_gallery_years/th_1999_12_marvin_ross.jpg'},
+    }),
+    new PersonObj({
+      name: 'Bill Hubbard',
+      images: {2000: 'http://barechest.org/years/2000/2000_01_bill_hubbard.jpg'},
+    }),
+    new PersonObj({
+      name: 'Todd Bauer',
+      images: {2000: 'http://barechest.org/years/2000/2000_02_todd_bauer.jpg'},
+    }),
+    new PersonObj({
+      name: 'Chris Hummel',
+      images: {2000: 'http://barechest.org/years/2000/2000_03_chris_hummel.jpg'},
+    }),
+    new PersonObj({
+      name: 'Carl Battles',
+      images: {2000: 'http://barechest.org/years/2000/2000_04_carl_battles.jpg'},
+    }),
+    new PersonObj({
+      name: 'Dann Cantrell',
+      images: {2000: 'http://barechest.org/years/2000/2000_05_dann_cantrell.jpg'},
+    }),
+    new PersonObj({
+      name: 'David Polizzi',
+      images: {2000: 'http://barechest.org/years/2000/2000_06_david_polizzi.jpg'},
+    }),
+    new PersonObj({
+      name: 'Tom Wallace',
+      images: {2000: 'http://barechest.org/years/2000/2000_07_tom_wallace.jpg'},
+    }),
+    new PersonObj({
+      name: 'Dean Prager',
+      images: {2000: 'http://barechest.org/years/2000/2000_08_dean_prager.jpg'},
+    }),
+    new PersonObj({
+      name: 'Marshall Miller',
+      images: {2000: 'http://barechest.org/years/2000/2000_09_marshall_miller.jpg'},
+    }),
+    new PersonObj({
+      name: 'Ric Hunter',
+      images: {2000: 'http://barechest.org/years/2000/2000_10_ric_hunter.jpg'},
+    }),
+    new PersonObj({
+      name: 'Silvio Barretta',
+      images: {2000: 'http://barechest.org/years/2000/2000_11_silvio_barretta.jpg'},
+    }),
+    new PersonObj({
+      name: 'Nick Knight',
+      images: {2001: 'http://barechest.org/years/2001/2001_01_nick_knight.jpg'},
+    }),
+    new PersonObj({
+      name: 'Lance Gear',
+      images: {2001: 'http://barechest.org/years/2001/2001_02_lance_gear.jpg'},
+    }),
+    new PersonObj({
+      name: 'Paul Dawson',
+      images: {2001: 'http://barechest.org/years/2001/2001_04_paul_dawson.jpg'},
+    }),
+    new PersonObj({
+      name: 'Jeff Cilione',
+      images: {2001: 'http://barechest.org/years/2001/2001_05_jeff_cilione.jpg'},
+    }),
+    new PersonObj({
+      name: 'Seth Adams',
+      images: {2001: 'http://barechest.org/years/2001/2001_06_seth_adams.jpg'},
+    }),
+    new PersonObj({
+      name: 'Scott Strang',
+      images: {2001: 'http://barechest.org/years/2001/2001_07_scott_strang.jpg'},
+    }),
+    new PersonObj({
+      name: 'Art Arciniega',
+      images: {2001: 'http://barechest.org/years/2001/2001_08_art_arciniega.jpg'},
+    }),
+    new PersonObj({ // September???
+      name: '',
+      images: {2001: ''},
+    }),
+    new PersonObj({
+      name: 'Nolan & Sal',
+      images: {2001: 'http://barechest.org/years/2001/2001_10_nolanfinn_salrinauro.jpg'},
+    }),
+    new PersonObj({
+      name: 'Daniel Henderson',
+      images: {2001: 'http://barechest.org/years/2001/2001_11_daniel_henderson.jpg'},
+    }),
+    new PersonObj({
+      name: 'Ed Morgan',
+      images: {2001: 'http://barechest.org/years/2001/2001_12_ed_morgan.jpg'},
+    }),
   ];
   for (var key in p) {
     if (people[p[key].name]) {
@@ -875,7 +1151,14 @@ function CalendarService () {
   people['Grant Dupont'].addImage(1992, 'http://barechest.org/years/1992/1992_02_grant_dupont.jpg');
   people['Kevin Sims'].addImage(1993, 'http://barechest.org/years/1993/1993_07_kevin_sims.jpg');
   people['Kevin Sims'].addImage(1994, 'http://barechest.org/years/1994/1994_01_kevin_sims.jpg');
+  people['Kevin Sims'].addImage(2000, 'http://barechest.org/years/2000/2000_12_kevin_sims.jpg');
+
   people['Lee Tucker'].addImage(1995, 'http://barechest.org/years/1995/1995_02_lee_tucker.jpg');
+  people['Wolf Mirasol'].addImage(1996, 'http://barechest.org/thumbs_gallery_years/th_96_06_wolf-andy.jpg');
+  people['Devin MacLachlan'].addImage(1996, 'http://barechest.org/years/1996/1996_01_devin_maclachlan.jpg');
+  people['Charlie Seltz'].addImage(1996, 'http://barechest.org/years/1996/1996_12_charlie_seltz.jpg');
+  people['Mark Seeba'].addImage(2001, 'http://barechest.org/years/2001/2001_03_mark_seeba.jpg');
+
   this.people = people;
 
 
@@ -1097,9 +1380,247 @@ function CalendarService () {
       people['Robert \'Scott\' Sherrill'],
     ],
   };
+  this.calendar[1996] = {
+    cover: 'http://barechest.org/years/1996/1996_bc_wolf_mirasol.jpg',
+    coverMan: people['Wolf Mirasol'],
+    backMan: people['Jeff Buppert'],
+    back: 'http://barechest.org/years/1996/1996_fc_jeff_buppert.jpg',
+    monthsUnprocessed: [
+      people['Devin MacLachlan'],
+      people['Tommy Reaves'],
+      people['Jim Donahue'],
+      people['Kirke Watson'],
+      people['Ron Telles'],
+      people['Wolf & Andy'],
+      people['Gary Lindstrum'],
+      people['John Bleyle'],
+      people['Jeff Buppert'],
+      people['Martyn Jones'],
+      people['Mike Greenberg'],
+      people['Charlie Seltz'],
+    ],
+  };
+  this.calendar[1997] = {
+    cover: 'http://barechest.org/years/1997/1997_fc_michael_wieland.jpg',
+    coverMan: people['Michael Wieland'],
+    back: 'http://barechest.org/thumbs_gallery_years/th_97_bc_fourmen.jpg',
+    monthsUnprocessed: [
+      people['Felix Novy'],
+      people['Joey Faria'],
+      people['Randy Wright'],
+      people['Thomas Powers'],
+      people['Juan Carlos'],
+      people['Stuart Kloda'],
+      people['??'],
+      people['Lynn McCameron'],
+      people['Michael Wieland'],
+      people['Mike Rand'],
+      people['John Edwards'],
+      people['Alex Hill'],
+    ],
+  };
+  this.calendar[1998] = {
+    cover: 'http://barechest.org/years/1998/1998-_c_mark_seeba.jpg',
+    coverMan: people['Mark Seeba'],
+    backMan: people['Ingu Yun'],
+    back: 'http://barechest.org/years/1998/1998_bc_ingu_yun.jpg',
+    monthsUnprocessed: [
+      people['Andre English'],
+      people['Bob Goldfarb'],
+      people['Jim Cassiol'],
+      people['Mark Seeba'],
+      people['Christopher Ward'],
+      people['David Edwards'],
+      people['Ken Lyght'],
+      people['Mike Lion'],
+      people['Andy Shore'],
+      people['Cory Iwatsu'],
+      people['Ingu Yun'],
+      people['Glennon Sutter'],
+    ],
+  };
+  this.calendar[1999] = {
+    cover: 'http://barechest.org/years/1999/1999_fc_ben_greenwell.jpg',
+    coverMan: people['Ben Greenwell'],
+    backMan: people['Paul Tucci'],
+    back: 'http://barechest.org/years/1999/1999_bc_paul_tucci.jpg',
+    monthsUnprocessed: [
+    ],
+  };
+  this.calendar[2000] = {
+    cover: 'http://barechest.org/years/2000/2000_fc_ric_hunter.jpg',
+    coverMan: people['Ric Hunter'],
+    backMan: people['Kevin Sims'],
+    back: 'http://barechest.org/years/2000/2000_bc_kevin_sims.jpg',
+    monthsUnprocessed: [
+      people['Bill Hubbard'],
+      people['Todd Bauer'],
+      people['Chris Hummel'],
+      people['Carl Battles'],
+      people['Dann Cantrell'],
+      people['David Polizzi'],
+      people['Tom Wallace'],
+      people['Dean Prager'],
+      people['Marshall Miller'],
+      people['Ric Hunter'],
+      people['Silvio Barretta'],
+      people['Kevin Sims'],
+    ],
+  };
+  this.calendar[2001] = {
+    cover: 'http://barechest.org/years/2001/2001_fc_daniel_henderson.jpg',
+    coverMan: people['Lance Gear'],
+    backMan: people['Daniel Henderson'],
+    back: 'http://barechest.org/years/2001/2001_bc_lance_gear.jpg',
+    monthsUnprocessed: [
+      people['Nick Knight'],
+      people['Lance Gear'],
+      people['Mark Seeba'],
+      people['Paul Dawson'],
+      people['Jeff Cilione'],
+      people['Seth Adams'],
+      people['Scott Strang'],
+      people['Art Arciniega'],
+      null,
+      people['Nolan & Sal'],
+      people['Daniel Henderson'],
+      people['Ed Morgan'],
+    ],
+  };
+  this.calendar[2002] = {
+    cover: '',
+    coverMan: people[''],
+    backMan: people[''],
+    back: '',
+    monthsUnprocessed: [
+    ],
+  };
+  this.calendar[2003] = {
+    cover: '',
+    coverMan: people[''],
+    backMan: people[''],
+    back: '',
+    monthsUnprocessed: [
+    ],
+  };
+  this.calendar[2004] = {
+    cover: '',
+    coverMan: people[''],
+    backMan: people[''],
+    back: '',
+    monthsUnprocessed: [
+    ],
+  };
+  this.calendar[2005] = {
+    cover: '',
+    coverMan: people[''],
+    backMan: people[''],
+    back: '',
+    monthsUnprocessed: [
+    ],
+  };
+  this.calendar[2006] = {
+    cover: '',
+    coverMan: people[''],
+    backMan: people[''],
+    back: '',
+    monthsUnprocessed: [
+    ],
+  };
+  this.calendar[2007] = {
+    cover: '',
+    coverMan: people[''],
+    backMan: people[''],
+    back: '',
+    monthsUnprocessed: [
+    ],
+  };
+  this.calendar[2008] = {
+    cover: '',
+    coverMan: people[''],
+    backMan: people[''],
+    back: '',
+    monthsUnprocessed: [
+    ],
+  };
+  this.calendar[2009] = {
+    cover: '',
+    coverMan: people[''],
+    backMan: people[''],
+    back: '',
+    monthsUnprocessed: [
+    ],
+  };
+  this.calendar[2010] = {
+    cover: '',
+    coverMan: people[''],
+    backMan: people[''],
+    back: '',
+    monthsUnprocessed: [
+    ],
+  };
+  this.calendar[2011] = {
+    cover: '',
+    coverMan: people[''],
+    backMan: people[''],
+    back: '',
+    monthsUnprocessed: [
+    ],
+  };
+  this.calendar[2012] = {
+    cover: '',
+    coverMan: people[''],
+    backMan: people[''],
+    back: '',
+    monthsUnprocessed: [
+    ],
+  };
+  this.calendar[2013] = {
+    cover: '',
+    coverMan: people[''],
+    backMan: people[''],
+    back: '',
+    monthsUnprocessed: [
+    ],
+  };
+  this.calendar[2014] = {
+    cover: '',
+    coverMan: people[''],
+    backMan: people[''],
+    back: '',
+    monthsUnprocessed: [
+    ],
+  };
+  this.calendar[2015] = {
+    cover: '',
+    coverMan: people[''],
+    backMan: people[''],
+    back: '',
+    monthsUnprocessed: [
+    ],
+  };
+  this.calendar[2016] = {
+    cover: '',
+    coverMan: people[''],
+    backMan: people[''],
+    back: '',
+    monthsUnprocessed: [
+    ],
+  };
+  this.calendar[2017] = {
+    cover: '',
+    coverMan: people[''],
+    backMan: people[''],
+    back: '',
+    monthsUnprocessed: [
+    ],
+  };
   for (var year in this.calendar) {
     this.calendar[year].months = [];
     for (var monthId in this.calendar[year].monthsUnprocessed) {
+      if (!this.calendar[year].monthsUnprocessed) {
+        continue;
+      }
       this.calendar[year].months[monthId] = new MonthObj(this.calendar[year].monthsUnprocessed[monthId], year, monthId);
       this.calendar[year].year = year;
       for (var pid in this.calendar[year].months[monthId].people) {

@@ -13,15 +13,27 @@
 </ol>
 <span class="clearfix"></span>
 <div class="container-fluid calendars-wrapper">
-  <div class="row" ng-if="calendar.cover">
-    <div class="col-sm-6">
+  <div class="row" ng-if="calendar.cover || calendar.back">
+    <div class="col-sm-6" ng-if="calendar.cover">
       <a href="#/calendar/{{year}}/cover" class="thumbnail">
         <img ng-src="{{calendar.cover}}" alt="Cover Image" fallback-src loading-src>
+        <div class="caption">
+          <div class="caption-inner">
+            <h3>Front Cover</h3>
+            <h4 ng-if="calendar.coverMan">{{calendar.coverMan.name}}</h4>
+          </div>
+        </div>
       </a>
     </div>
     <div class="col-sm-6" ng-if="calendar.back">
       <a href="#/calendar/{{year}}/back" class="thumbnail">
         <img ng-src="{{calendar.back}}" alt="Back Image" fallback-src loading-src>
+        <div class="caption">
+          <div class="caption-inner">
+            <h3>Back Cover</h3>
+            <h4 ng-if="calendar.backMan">{{calendar.backMan.name}}</h4>
+          </div>
+        </div>
       </a>
     </div>
   </div>

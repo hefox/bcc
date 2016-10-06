@@ -13,6 +13,8 @@
   "globals": {
     "angular": false,
     "CalendarService": false,
-    "MonthObj": false
+    "MonthObj": false,
+    "getPeople": false,
+    "PersonObj": false
   }
 }
